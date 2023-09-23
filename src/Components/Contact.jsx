@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export const Contact = () => {
     const { t } = useTranslation();
   return (
-     <div className='w-full h-screen bg-[#1a2f54] flex justify-center items-center p-4' name='contact'>
+     <div className='w-full h-screen bg-[#323946] flex justify-center items-center p-4' name='contact'>
        
         <form action="https://getform.io/f/cd39e7bf-61cb-45c6-bbc9-6037d28115e5" method='POST' className='flex flex-col max-w-[600px] w-full '>
             <div className='pb-8'>

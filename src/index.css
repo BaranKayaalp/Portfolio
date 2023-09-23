@@ -35,5 +35,32 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #122038; /* Scrollbar başlığı rengi */
+    background-color: #1f242d; /* Scrollbar başlığı rengi */
 }
+
+.menunavbar li {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    transition: 0.4s ;
+}
+
+.menunavbar li:hover,
+.menunavbar li:active {
+    color: #0284c7;
+    transform: scale(1.1)
+}
+
+
+.mobilemenu li {
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.4s ;
+}
+
+.mobilemenu li:hover,
+.mobilemenu li:active {
+    color: #0284c7;
+    transform: scale(1.1)
+}
+

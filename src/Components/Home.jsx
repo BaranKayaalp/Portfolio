@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 export const Home = () => {
   const { t } = useTranslation();
   return (
-    <div className='bg-[#1a2f54] w-full h-screen' name='home'>
+    <div className='bg-[#1f242d] w-full h-screen' name='home'>
 
       {/* Container */}
 

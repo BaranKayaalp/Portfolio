@@ -26,7 +26,7 @@ export const Nav = () => {
   return (
     <div
       className="fixed w-full h-[80px] flex justify-between items-center
-    px-4 bg-[#1a2f54] text-gray-300"
+    px-4 bg-[#1f242d] text-gray-300"
     >
       <div>
         <img
@@ -38,28 +38,28 @@ export const Nav = () => {
 
       {/* Menu */}
 
-      <ul className="hidden md:flex  list-none ">
+      <ul className="hidden md:flex  list-none menunavbar ">
         <li>
           
-          <Link className="hover:underline decoration-sky-600" to="home" smooth={true} offset={-20} duration={500}>
+          <Link to="home" smooth={true} offset={-20} duration={500}>
             {t("anasayfa")}
           </Link>
         </li>
         <li>
          
-          <Link className="hover:underline decoration-sky-600" to="about" smooth={true} offset={-20} duration={500}>
+          <Link  to="about" smooth={true} offset={-20} duration={500}>
             {t("hakkimda")}
           </Link>
         </li>
         <li>
           
-          <Link className="hover:underline decoration-sky-600" to="skills" smooth={true} offset={-170} duration={500}>
+          <Link  to="skills" smooth={true} offset={-170} duration={500}>
             {t("yetenekler")}
           </Link>
         </li>
         <li>
           
-          <Link className="hover:underline decoration-sky-600" to="contact" smooth={true} offset={-75} duration={500}>
+          <Link to="contact" smooth={true} offset={-75} duration={500}>
             {t("iletisim")}
           </Link>
         </li>
@@ -70,39 +70,37 @@ export const Nav = () => {
         </li>
         <li>
   
-          <img src={enbayragi} onClick={() => clickHandle("en")} />
+          <img src={enbayragi} onClick={() => clickHandle("en")}  />
         </li>
       </ul>
 
       {/* Hamburger */}
       <div
-        className="md:hidden z-10 duration-300 flex gap-2"
+        className="md:hidden z-10 duration-300 flex gap-2 cursor-pointer "
         onClick={handeClick}
       >
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Mobile Menu */}
-      <ul
-        className={
-          !nav
-            ? "hidden "
-            : "absolute top-0 left-0 w-full h-screen bg-[#1a2f54] flex flex-col justify-center items-center"
+      <ul className={!nav
+            ? "hidden mobilemenu  "
+            : "absolute top-0 left-0 w-full h-screen bg-[#1f242d] flex flex-col justify-center items-center mobilemenu "
         }
       >
         <img src={Logo} alt="Logo" className="w-48" />
-        <li className="py-4 text-4xl hover:underline decoration-sky-600">
+        <li className="py-4 text-4xl ">
           <Link onClick={handeClick} to="home" smooth={true} offset={-20} duration={500}>
             {t("anasayfa")}
           </Link>
         </li>
-        <li  className="py-4 text-4xl hover:underline decoration-sky-600"><Link onClick={handeClick} to="about" smooth={true} offset={-20} duration={500}>
+        <li  className="py-4 text-4xl "><Link onClick={handeClick} to="about" smooth={true} offset={-20} duration={500}>
             {t("hakkimda")}
           </Link></li>
-        <li className="py-4 text-4xl hover:underline decoration-sky-600"> <Link onClick={handeClick} to="skills" smooth={true} offset={-170} duration={500}>
+        <li className="py-4 text-4xl "> <Link onClick={handeClick} to="skills" smooth={true} offset={-170} duration={500}>
             {t("yetenekler")}
           </Link></li>
-        <li className="py-4 text-4xl hover:underline decoration-sky-600"> <Link onClick={handeClick} to="contact" smooth={true} offset={-75} duration={500}>
+        <li className="py-4 text-4xl "> <Link onClick={handeClick} to="contact" smooth={true} offset={-75} duration={500}>
             {t("iletisim")}
           </Link></li>
         <li>

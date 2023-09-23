@@ -12,7 +12,7 @@ import { useTranslation } from "react-i18next";
 export const Skills = () => {
     const { t, i18n } = useTranslation();
   return (
-    <div name='skills' className='bg-[#1a2f54] text-gray-300'>
+    <div name='skills' className='bg-[#1f242d] text-gray-300'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl  font-bold inline border-b-4 border-sky-300'>{t('yetenekler')}</p>

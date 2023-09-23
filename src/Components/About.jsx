@@ -5,7 +5,7 @@ export const About = () => {
   const { t } = useTranslation();
   
   return (
-    <div className= "w-full h-screen bg-[#1a2f54] text-gray-300" name="about">
+    <div className= "w-full h-screen bg-[#323946] text-gray-300" name="about">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
