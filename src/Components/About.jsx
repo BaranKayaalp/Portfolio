@@ -1,9 +1,11 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
+
 export const About = () => {
   const { t } = useTranslation();
-  
+
+
   return (
     <div className= "w-full h-screen bg-[#323946] text-gray-300" name="about">
       <div className="flex flex-col justify-center items-center w-full h-full">
