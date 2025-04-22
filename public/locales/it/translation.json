@@ -1,0 +1,50 @@
+{
+    "anasayfa": "Home",
+    "hakkimda": "Chi sono",
+    "yetenekler": "Competenze",
+    "calismalarim": "I miei lavori",
+    "iletisim": "Contatto",
+    "merhaba": "Ciao, sono",
+    "homeben": "Sono uno studente di Ingegneria Informatica",
+    "homehakkimda": "Sono uno studente al primo anno del corso di laurea triennale presso l'Università di Genova, in Italia, con l'interesse di specializzarmi nei sistemi embedded. Mi sto impegnando costantemente per approfondire questo campo e contribuire a progetti innovativi, sfruttando diverse fonti per aumentare le mie conoscenze. Il mio obiettivo è acquisire una maggiore competenza comprendendo le esigenze e i processi di sviluppo del settore.",
+    "dil": "Italiano",
+    "abouthakkimda": "Ciao ancora, sono Baran Kayaalp. Un futuro ingegnere che si sta formando nel campo dei sistemi embedded.",
+    "aboutgelisim": "Ho iniziato il mio viaggio nel software leggendo libri, poi l'ho supportato con corsi su Udemy e YouTube. Ho adattato i progetti che ho visto lì alle mie esigenze e ho proseguito su questa strada. Ho presto capito la natura competitiva del mercato e per questo motivo ho compreso la necessità di seguire un percorso personale oltre all'educazione universitaria.",
+    "yeteneklerhakkinda": "Le competenze che possiedo",
+    "iletisimparagraf": "Puoi contattarmi da qui oppure scrivermi all’indirizzo email barankayaalp@gmail.com.",
+    "dahafazlasi": "Di più...",
+    "isim": "Il tuo nome?",
+    "mesajınız": "Il tuo messaggio...",
+    "yolla": "Invia...",
+    "Languages": "Seleziona lingua",
+   "cv": {
+  "title": "Di Più Su Di Me",
+  "egitim": {
+    "baslik": "Formazione",
+    "ozet": "Università di Genova - Ingegneria Informatica",
+    "detay": "Il mio percorso accademico si concentra su Sistemi Embedded, architettura ARM e microcontrollori. Studio anche le basi dell'ingegneria del software e l'analisi degli algoritmi."
+  },
+  "projeler": {
+    "baslik": "Progetti",
+    "ozet": "Teknofest Robotaxi, Hello World – ASSET",
+    "detay": "Ho contribuito ai sistemi embedded nel progetto Robotaxi. In Hello World – ASSET ho lavorato sull'elaborazione delle immagini per le tecnologie turistiche."
+  },
+  "gorevler": {
+    "baslik": "Ruoli",
+    "ozet": "Direttore Comunicazione – Club Tecnologico",
+    "detay": "Ho guidato il mio team e organizzato eventi. Questa esperienza ha migliorato le mie capacità di leadership, comunicazione e pianificazione."
+  },
+  "ilgialanlari": {
+    "baslik": "Interessi",
+    "ozet": "Sistemi Embedded, Elaborazione Immagini, Architettura di Sistema",
+    "detay": "Approfondisco l'integrazione hardware-software, i sistemi in tempo reale e la programmazione a basso livello."
+  },
+  "beceriler": {
+    "baslik": "Competenze Tecniche"
+  },
+  "qr": {
+    "aciklama": "Scarica il mio CV tramite codice QR:",
+    "buton": "Scarica CV"
+  }
+}
+}

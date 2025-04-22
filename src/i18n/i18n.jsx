@@ -13,9 +13,14 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: 'tr',
-    
-    }
-  );
+    supportedLngs: ['tr', 'en', 'it'], // 🔥 Burası eklendi
 
+    backend: {
+      loadPath: '/locales/{{lng}}/translation.json',
+    },
 
-export default i18n;
+    interpolation: {
+      escapeValue: false,
+    },
+  });
+  export default i18n;

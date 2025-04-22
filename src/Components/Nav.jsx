@@ -15,6 +15,7 @@ import Logo from "../assets/logo.png";
 import { useTranslation } from "react-i18next";
 import trbayragi from "../assets/trbayraği.png";
 import enbayragi from "../assets/en.png";
+import itbayragi from "../assets/itbayragi.png"
 import { motion } from "framer-motion";
 
 export const Nav = () => {
@@ -119,12 +120,23 @@ export const Nav = () => {
 <motion.li
   ref={menu_item1}
   initial={{ opacity: 0, y: 0 }}
+  animate={{ opacity: 1, y: 9 }}
+  transition={{ duration: 0.5, delay: 1}}
+  className="py-4 text-4xl "
+>
+  <img src={itbayragi} onClick={() => clickHandle("it")} />
+</motion.li>
+
+<motion.li
+  ref={menu_item1}
+  initial={{ opacity: 0, y: 0 }}
   animate={{ opacity: 1, y: 7 }}
   transition={{ duration: 0.5, delay: 1}}
   className="py-4 text-4xl"
 >
 <img src={enbayragi} onClick={() => clickHandle("en")} />
 </motion.li>
+
            </ul>
 
 
@@ -197,6 +209,15 @@ export const Nav = () => {
             onClick={() => clickHandle("tr")}
           />
         </li>
+
+        <li>
+  <img
+    src={itbayragi}
+    className="mt-3"
+    onClick={() => clickHandle("it")}
+  />
+</li>
+
         <li>
           {" "}
           <img

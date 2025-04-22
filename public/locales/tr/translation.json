@@ -5,10 +5,10 @@
     "calismalarim": "Çalışmalarım",
     "iletisim": "İletişim",
     "merhaba": "Merhaba, ben",
-    "homeben":"Ben bir Ön Uç Geliştiricisiyim",
-    "homehakkimda": "İstanbul Kültür Üniversitesi'nde birinci sınıf öğrencisiyim. YKS sınavını başarıyla tamamladıktan sonra yazılım alanında kendimi geliştirmeye başladım. Eğitim sürecim boyunca kendimi ilerletmek ve piyasada daha fazla uzmanlaşmak amacındayım.",
+    "homeben":"Ben bir Bilgisayar Mühendisliği Öğrenciyim",
+    "homehakkimda": "Italya'da bulunan Cenova Üniversitesinin 3 yıllık lisans eğitim ve öğretim yılının ilk senesinde bulunan, gömülü sistemler alanında çalışmak isteyen ve bu konuda kendini geliştirmeye hevesli bir öğrenciyim. Gömülü sistemler alanındaki yenilikçi projelere katkı sağlamak amacıyla sürekli olarak bu alanda derinleşiyorum ve bilgi birikimimi artırmak için çeşitli kaynaklardan faydalanıyorum. Alanın gereksinimlerini ve gelişim süreçlerini öğrenerek, kendimi bu alanda daha fazla uzmanlaştırmayı hedefliyorum.",
     "dil": "Türkçe",
-    "abouthakkimda": "Merhaba tekrardan, ben Baran Kayaalp. Front-End React geliştiricisi olarak çalışıyorum.",
+    "abouthakkimda": "Merhaba tekrardan, ben Baran Kayaalp. Gömülü Sistemler alanında kendini geliştiren bir mühendis adayıyım..",
     "aboutgelisim": "Kitap okuyarak başladığım yazılım serüvenimi Udemy ve Youtube kanallarıyla destekledim. Oralarda izlediğim projeleri kendime uyarladım ve bu doğrultuda ilerledim. Piyasanın rekabetçi doğasının farkına erken vardım ve bu sebeple okul eğitiminin dışında kendi yolumu çizmek gerektiğini anladım.",
     "yeteneklerhakkinda": "Sahip olduğum beceriler",
     "iletisimparagraf": "Benimle buradan iletişim kurabilir veya e-posta adresime barankayaalp@gmail.com üzerinden ulaşabilirsiniz.",
@@ -16,6 +16,37 @@
      "isim": "İsminiz?",
      "mesajınız": "Mesajınız...",
      "yolla": "Yolla...",
-    "Languages": "Dil Seç"
+    "Languages": "Dil Seç",
+    "cv": {
+  "title": "Hakkımda Daha Fazlası",
+  "egitim": {
+    "baslik": "Eğitim",
+    "ozet": "Genoa Üniversitesi - Bilgisayar Mühendisliği",
+    "detay": "Derslerim Embedded Systems, ARM mimarisi, mikrodenetleyiciler gibi teknik alanlara odaklı..."
+  },
+  "projeler": {
+    "baslik": "Projeler",
+    "ozet": "Teknofest Robotaksi, Hello World – ASSET",
+    "detay": "Robotaksi'de gömülü sistemlere katkı sağladım..."
+  },
+  "gorevler": {
+    "baslik": "Görevler",
+    "ozet": "Kurum. İletişim Direktörü – Teknoloji Kulübü",
+    "detay": "Takım liderliği yaptım, seminer ve etkinlik organizasyonu yürüttüm..."
+  },
+  "ilgialanlari": {
+    "baslik": "İlgi Alanları",
+    "ozet": "Embedded Systems, Görüntü İşleme, Sistem Mimarisi",
+    "detay": "Donanım-yazılım entegrasyonu, gerçek zamanlı sistemler..."
+  },
+  "beceriler": {
+    "baslik": "Teknik Beceriler"
+  },
+  "qr": {
+    "aciklama": "CV'mi QR kodla indir:",
+    "buton": "CV’yi İndir"
+  }
+}
+
     
 }

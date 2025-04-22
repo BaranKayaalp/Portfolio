@@ -3,7 +3,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 
-export const Home = () => {
+export const Home = ({ goToMoreDetails }) => {
   const { t } = useTranslation();
   return (
     <motion.div 
@@ -50,7 +50,9 @@ export const Home = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 1 }}
       >
-        <button className='duration-500 text-white border-2 px-6 py-3 my-2 flex items-center hover:text-sky-300 hover:border-sky-300 hover:scale-105'>
+        <button
+         onClick={goToMoreDetails}
+         className='duration-500 text-white border-2 px-6 py-3 my-2 flex items-center hover:text-sky-300 hover:border-sky-300 hover:scale-105'>
           {t('dahafazlasi')}
           <HiArrowNarrowRight className='ml-3' size={25} />
         </button>
@@ -61,4 +63,4 @@ export const Home = () => {
   
   
   )
-}
+} 

@@ -6,9 +6,9 @@
     "iletisim": "Contact",
     "merhaba": "Hi, I am",
     "homeben":"I am Front-End Developer",
-    "homehakkimda": "I am a first-year student at Istanbul Kültür University. Following the successful completion of the YKS exam, I immersed myself in the field of software development and commenced refining my skills. Throughout my educational journey, I aspire to advance myself and attain a higher level of expertise in the market.",
+    "homehakkimda": "I am a first-year student at the University of Genoa in Italy, pursuing a three-year Bachelor's degree in Computer Engineering. I am eager to work in the field of Embedded Systems and have been actively improving my skills in this area. With the aim of contributing to innovative projects in Embedded Systems, I continuously deepen my knowledge and expand my expertise by utilizing various resources. By learning about the requirements and development processes of the field, I aim to further specialize and enhance my skills in this domain.",
     "dahafazlasi": "More....",
-    "abouthakkimda": "Hello again, I am Baran Kayaalp. I work as a Front-End React developer.",
+    "abouthakkimda": "Hello again, I am Baran Kayaalp. I study on Embedded System...",
     "dil": "English",
     "aboutgelisim": "I initiated my journey into software development by reading books, which I supplemented with courses from Udemy and tutorials from YouTube. I adapted the projects I watched there to my own style and progressed accordingly. I recognized the competitive nature of the industry early on, and as a result, I learned that I needed to chart my own course independent of formal education.",
     "yeteneklerhakkinda": "These are the technologies I've worked with",
@@ -16,5 +16,36 @@
     "isim": "Name?",
     "mesajınız": "Message...",
     "yolla": "Send...",
-    "Languages": "Select Languages"
+    "Languages": "Select Languages",
+
+    "cv": {
+  "title": "More About Me",
+  "egitim": {
+    "baslik": "Education",
+    "ozet": "University of Genoa - Computer Engineering",
+    "detay": "My coursework focuses on Embedded Systems, ARM architecture, and microcontrollers. I also study core software engineering and algorithm analysis."
+  },
+  "projeler": {
+    "baslik": "Projects",
+    "ozet": "Teknofest Robotaxi, Hello World – ASSET",
+    "detay": "I contributed to embedded systems in the Robotaxi project. In Hello World – ASSET, I worked on image processing for tourism technologies."
+  },
+  "gorevler": {
+    "baslik": "Roles",
+    "ozet": "Corporate Communications Director – Technology Club",
+    "detay": "I led my team and organized events. This experience enhanced my leadership, communication, and planning skills."
+  },
+  "ilgialanlari": {
+    "baslik": "Interests",
+    "ozet": "Embedded Systems, Image Processing, System Architecture",
+    "detay": "I'm diving deeper into hardware-software integration, real-time systems, and low-level programming."
+  },
+  "beceriler": {
+    "baslik": "Technical Skills"
+  },
+  "qr": {
+    "aciklama": "Download my CV via QR code:",
+    "buton": "Download CV"
+  }
+}
 }
